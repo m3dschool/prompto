@@ -1,0 +1,2 @@
+{"id": 0, "api": "gemini", "model_name": "gemini-1.5-flash", "prompt": "What is in this image?", "safety_filter": "none", "parameters": {"candidate_count": 1, "temperature": 1, "max_output_tokens": 100}}
+{"id": 1, "api": "gemini", "model_name": "gemini-2.0-flash", "prompt": "What is in this image?", "safety_filter": "none", "parameters": {"candidate_count": 1, "temperature": 1, "max_output_tokens": 100}}

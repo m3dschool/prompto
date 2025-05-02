@@ -1,0 +1,1 @@
+02-05-2025, 11:19: Completed experiment: mix.jsonl! Experiment processing time: 7.462 seconds, Average time per query: 2.487 seconds

@@ -1,1 +1,0 @@
-15-11-2024, 12:23: Completed experiment: rephrase-example.jsonl! Experiment processing time: 16.657 seconds, Average time per query: 2.082 seconds
