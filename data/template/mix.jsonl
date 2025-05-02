@@ -1,12 +1,12 @@
 // OPENAI 
 // WITH IMAGE URL
-{"id": 0, "api": "openai", "model_name": "gpt-4o", "prompt": [{"role": "user", "content": [{"type": "text", "text": "What is in this image?"}, {"type": "image_url", "image_url": {"url": "image1.png", "detail": "auto"}}]}], "parameters": {"n": 1, "temperature": 1, "max_tokens": 100}}
+{"id": 0, "api": "openai", "model_name": "gpt-4o", "prompt": [{"role": "user", "content": [{"type": "text", "text": "What is in this image?"}, {"type": "image_url", "image_url": {"url": "image1.png", "detail": "auto"}}]}], "parameters": {"n": 1, "temperature": 0, "max_tokens": 100}}
 // TEXT
-{"id": 0, "api": "openai", "model_name": "gpt-3.5-turbo", "prompt": "How does technology impact us?", "parameters": {"n": 1, "temperature": 1, "max_tokens": 100}}
+{"id": 0, "api": "openai", "model_name": "gpt-3.5-turbo", "prompt": "How does technology impact us?", "parameters": {"n": 1, "temperature": 0, "max_tokens": 100}}
 
 // GEMINI
 // WITH IMAGE URL
-{"id": 0, "api": "gemini", "model_name": "gemini-2.0-flash", "prompt": [{"role": "user", "parts": ["What is in this image?", {"type": "image", "media": "image1.png"}]}], "safety_filter": "none", "parameters": {"candidate_count": 1, "temperature": 1, "max_output_tokens": 100}}
+{"id": 0, "api": "gemini", "model_name": "gemini-2.0-flash", "prompt": [{"role": "user", "parts": ["What is in this image?", {"type": "image", "media": "image1.png"}]}], "safety_filter": "none", "parameters": {"candidate_count": 1, "temperature": 0, "max_output_tokens": 100}}
 
 // TEXT
-{"id": 0, "api": "gemini", "model_name": "gemini-2.0-flash", "prompt": [{"role": "user", "parts": ["How does technology impact us?"]}], "safety_filter": "none", "parameters": {"candidate_count": 1, "temperature": 1, "max_output_tokens": 100}}
+{"id": 0, "api": "gemini", "model_name": "gemini-2.0-flash", "prompt": [{"role": "user", "parts": ["How does technology impact us?"]}], "safety_filter": "none", "parameters": {"candidate_count": 1, "temperature": 0, "max_output_tokens": 100}}
